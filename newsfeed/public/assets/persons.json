@@ -1,0 +1,13 @@
+{
+    "persons": [{
+            "id": "1",
+            "name": "test",
+            "passwort": "test"
+        },
+        {
+            "id": "2",
+            "name": "test2",
+            "passwort": "test2"
+        }
+    ]
+}
