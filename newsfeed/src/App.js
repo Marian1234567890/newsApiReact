@@ -48,7 +48,7 @@ class App extends Component {
     this.getLocalStorage() === null
       ? axios
           .get(
-            `https://newsapi.org/v2/top-headlines?country=de&category=${url}&pageSize=100&apiKey=17afaa6d3614443190ba6fe7ffca1836`
+            `https://newsapi.org/v2/top-headlines?country=de&category=${url}&pageSize=100&apiKey=***`
           )
           .then(res => {
             const articles = res.data.articles;
